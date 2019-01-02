@@ -1,0 +1,832 @@
+.backgroundnav{
+	background:#2196f399;
+	color:white;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+.backgroundnavdm{
+    background:#2196f399;
+  color:white;
+      margin-top: 1em;
+}
+.user{
+	    color: #2E3953;
+    text-decoration: none;
+    font-size: 30px;
+}
+.user:hover{
+    color: #2196F3;
+}
+.danhmucsua{
+  height:990px;
+  background-color: #C1CFFF;
+}
+/*.suamoi
+{
+	background-color:#2E3953;
+	height:990px;
+}*/
+.nav-link:hover{
+	background:#2196f34d;
+	border-radius: 5em;
+}
+
+
+/*#box {
+  width: 300px;
+  height: 300px;
+  background: red;
+  transition: margin-left 2s 0.5s ease-in-out;
+  -moz-transition: margin-left 2s 0.5s ease-in-out;
+  -webkit-transition: margin-left 2s 0.5s ease-in-out,background-color 1s;;
+}
+
+#box:hover {
+  margin-left: 300px;
+  background-color:blue;
+}*/
+h2#tieude {
+     /* height: 50px; */
+    /* font-size: 18px; */
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+ color: #00f3b2;
+    /* text-align: -webkit-left; */
+      padding-top: 12em;
+text-align: center;
+/*    margin-top:5px;*/
+}
+h3#noidung {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    color: #00f3b2;
+    text-align: center;
+    /* font-weight: 500; */
+    /* text-align: center; */
+
+}
+h2#tieudespmoi {
+     /* height: 50px; */
+    /* font-size: 18px; */
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+ color: #00f3b2;
+    /* text-align: -webkit-left; */
+      padding-top: 12em;
+text-align: center;
+/*    margin-top:5px;*/
+}
+h3#noidungspmoi {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    color: #00f3b2;
+    text-align: center;
+    /* font-weight: 500; */
+    /* text-align: center; */
+
+}
+#hinh{
+	background: url('../hinh/dielacpedia.jpg');
+	height:450px;
+	width: 350px;
+	background-repeat: no-repeat;
+	margin-top: 7em;
+}
+#hinh1{
+	background: url('../hinh/dielacpedia.jpg');
+	height:450px;
+	width: 350px;
+	background-repeat: no-repeat;
+	margin-top: 7em;
+}
+#hinhsphot{
+	height:350px;
+	width: 350px;focus
+	background-repeat: no-repeat;
+	margin-top: 7em;
+}
+i.fa.fa-envira {
+    color: #00f3b2;
+    /*#e9ecef*/
+    /* height: 40px; */
+    width: 40px;
+    font-size: 30px;
+}
+.np{
+	font-size: inline-block;
+	font: normal normal normal 55px/1 FontAwesome;
+	color:#c6dae163;
+}
+input[type="button"].np{
+	background: transparent;
+	border:transparent;
+	}
+
+.np:focus{
+	border:transparent;
+}
+.spbanchay h2 {
+    margin-top: 2em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    color: lightblue;
+}
+.thongtinsp {
+    height: 250px;
+    width: 293px;
+    /* margin-left: 5em; */
+    margin-top: 1.5em;
+    float: left;
+}
+.thongtinsp h4{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;
+}
+.thongtinsp #hinhttsp{
+  height:100px;
+  width: 100px;
+}
+.thongtinsp #hinhttsphot{
+  height:200px;
+  width: 200px;
+}
+.thongtinsp h4{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    color: lightblue;
+}
+.thongtinsp a{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bold;
+    color: lightblue;
+    text-decoration: none;
+}
+.thongtinsp a:hover{
+    color:red;
+    
+}
+.nav-link.gdd{
+  color:red;
+}
+
+.gdd {
+   color:#E91E63;
+    padding-right: .5rem;
+    margin-left: 2em;
+
+  
+}
+.gdd a{
+    color:green;
+  border:15px;
+ text-decoration: none;
+
+}
+.gdd a:hover{
+    border-radius: 5em;
+    background:blue;
+}
+.dmc3 li{
+    border-right: 1px solid #ffffff59;
+      list-style-type: none;
+    color: white;
+    display: inline-grid;
+    width: 130px;
+    /* height: 40px; */
+    line-height: 40px;
+    position: relative;
+}
+.dmc3 li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.dmc3 li a:hover{
+    color: #ffeb3b;
+    
+}
+
+li:hover .dmc3 {
+    display: block;
+}
+li .dmc3  {
+    display: inline-grid;
+   /* position: relativ*/ /*hien thi k trang sang li khac*/
+}
+      /*.nav{
+        background-color: #0080C0;
+    }
+ 
+    .nav>li{
+        float: left;
+        margin-right: 15px;
+    }
+     
+    .nav>li>a{
+        text-transform: uppercase;
+        color: #fff;
+    }
+ 
+    .nav li{
+        position: relative;
+    }
+ 
+    .nav li a{
+        padding: 10px;
+        line-height: 20px;
+        display: inline-block;
+    }
+ 
+    .nav .sub-menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 200px;
+        background-color: #eee;
+        padding: 5px 20px;
+    }
+     
+    .nav li:hover>.sub-menu{
+        display: block;
+    }
+ 
+    .nav>li>.sub-menu{
+        top: 40px;
+        left: 0;
+    }*/
+
+/* dang nhap */
+.taikhoan {
+   margin: 0 auto;
+   float:right;
+    padding-top: 9em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.taikhoan input[type="text"] {
+    border: 1px solid #0000006b;
+    border-radius: 7px;
+    /* margin-top: 25px; */
+    width: 14em;
+    background: #80808000;
+    padding: 3px 0px 2px 11px;
+}
+.taikhoan input[type="password"] {
+    border: 1px solid #0000006b;
+    border-radius: 7px;
+    /* margin-top: 25px; */
+    width: 14em;
+    background: #80808000;
+    padding: 3px 0px 2px 11px;
+}
+.taikhoan input[type="date"] {
+    border: 1px solid #0000006b;
+    border-radius: 7px;
+    /* margin-top: 25px; */
+    width: 14em;
+    background: #80808000;
+    padding: 3px 0px 2px 11px;
+}
+.taikhoan textarea
+{
+    height: 100px;
+    width: 250px;
+    
+}
+.taikhoan input[type="number"] {
+    border: 1px solid #0000006b;
+    border-radius: 7px;
+    /* margin-top: 25px; */
+    width: 14em;
+    background: #80808000;
+    padding: 3px 0px 2px 11px;
+}
+.btntaikhoan {
+margin-top:3px;
+}
+.btntaikhoan input[type="button"] {
+    border: 1px soi;
+    border-radius: 3px;
+    border: 11px;
+    color: #ffffffad;
+    background-color:lightblue;
+}
+.btntaikhoan input[type="submit"] {
+    border: 1px soi;
+    border-radius: 3px;
+    border: 11px;
+    color: #ffffffad;
+    background-color:lightblue;
+}
+i.fa fa-sign-in{
+    font-size: 1em;
+    
+color:black;
+    }
+.taikhoan h3 {
+    color: lightblue;
+    font-size: 2em;
+    /* position: absolute; */
+    padding-bottom: 4px;
+    line-height: -15px;
+}
+#thongbao{
+      margin-top: 15em;
+}
+/*  nhap lieu 
+*/
+.page ul{
+        list-style: none;
+}
+.pagi li {
+    display: inline-table;
+    line-height: 40px;
+    background: lightblue;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+.nhapsua td{
+    background: lightblue;
+}
+div#bang {
+    margin: 0 auto;
+        margin-top: 5em;
+}
+div#prenext {
+    text-align: center;
+}
+/*chitietsapham*/
+#hinhctsp{
+    height: 250px;
+    width: 250px;
+}
+table.ctsp {
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+ div#listhinh {
+    margin-top: 5px;
+    border: 4px solid #cac7c796;
+    border-radius: 6px;
+}
+img#hinhsp1 {
+    border-right: 2px solid #cecece9c;
+}
+img#hinhsp2{
+    border-right: 2px solid #cecece9c;
+}
+td input[type="number"] {
+    width: 40px;
+}
+td#themvaogio {
+    padding-left: 19px;
+    /* margin-left: 13px; */
+}
+td input[type="button"] {
+    background: #fff;
+}
+td input[type="submit"] {
+    background: #fff;
+    /* border: double #2196F3; */
+    /* border: 1px solid #272222; */
+    /* color: #8ec7d8; */
+    border-radius: 2em;
+}
+input[type="submit"]:hover {
+    background: #03a9f44d;
+    color: white;
+}
+/*  danh muc */
+nav.prexet {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.dssp {
+    text-align: center;
+}
+#tieude{
+        color: #00bcd4ad;
+    text-align: center;
+    font-family: monospace;
+    
+}
+ul#ql {
+    list-style-type: none;
+    font-size: 1.5em;
+    color: white;
+    background: lightblue;
+    line-height: 2em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: bolder;
+    border-radius: 25px;
+}
+body.qlbody {
+    background: #b3b3b33b;
+}
+#ql li:hover {
+    color: #2196f370;
+    font-size: larger;
+    blue: inherit;
+}
+#ql ul{
+       -webkit-transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+    -ms-transition: height 0.3s ease-in;
+    transition: height 0.3s ease-in;
+    opacity:0; 
+}
+
+/*  header */
+
+*{
+    margin:0; 
+    padding: 0
+}
+
+.dmhienthi {
+  
+/*    background: #2196f399;*/
+    float: left;
+}
+ 
+.dmhienthi ul {
+    float: left;
+    list-style: none;
+}
+ 
+.dmhienthi ul li {
+    position: relative;
+    float: left;
+}
+ 
+.dmhienthi li a {
+/*        width: 9em;*/
+    display: block;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 35px;
+}
+ 
+.dmhienthi li a:hover {
+    background: #2196f399;
+}
+ 
+.dmhienthi li ul{
+    background: #2196f399;
+    position: absolute;
+    display: none;
+    width: 230px;
+}
+.dmhienthi li ul a:hover{
+    color: #FF0000;
+}
+ 
+.dmhienthi li:hover ul{
+    display: block;
+}
+ 
+.dmhienthi ul li ul li {
+    width: 100%;
+}
+ 
+.dmhienthi li:hover > a{
+    background: #2196f399;
+}
+.frmtt {
+    /* margin: 0 auto; */
+    margin-top: 9em;
+    background-color: #e1e1e182;
+    /* line-height: 36px; */
+    padding: 59px 0px 68px 0px;
+}
+div#gio {
+    margin-top: 9em;
+}
+
+/* trang tin tuc */
+.tintuc {
+    border-right: 1em solid white;
+    font-size: 1em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: unset;
+}
+.tintuc h1 {
+    color: #3894de;
+    font-size: 30px;
+}
+.tinhot {
+    border-radius: 1em;
+    border-left: 1px solid white;
+    box-shadow: -2px 9px 14px 2px #e6eaef;
+}
+.danhsachtinhot li {
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.xemnn {
+    text-align: center;
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+    background: #7ac0f8;
+    line-height: 46px;
+    margin-top: 1em;
+    box-shadow: 1px 1px 15px 5px gainsboro;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.dstintuc, li {
+    box-shadow: 5px 5px 5px -3px #CAC5E2;
+    border-bottom: 1px solid #d2cfcf;
+    margin-top: 1em;
+    margin-right: 2em;
+    font-size: 12px;
+}
+
+.noidungtomtat{
+    color: black;
+    font-size: 15px;    
+}
+
+.bot-cmt {
+    float: left;
+    margin-top: 2em;
+    width: 100%;
+    background: #dfe3ea26;
+}
+
+.ykien, p {
+    margin-top: 1em;
+    font-weight: 600;
+    margin-left: 25px;
+    color: #333333;
+}
+
+.textykienbandoc{
+    width: 107%;
+    height: 120px;
+}
+
+.cmt {
+    width: 90%;
+    float: left;
+    margin: 2%;
+}
+
+.binhluan {
+    line-height: 1.5;
+    margin-left: 51em;
+    width: 81px;
+    height: 40px;
+    border: 1px solid #0a6df93b;
+    background: #0285ef7a;
+}
+
+.head {
+    padding: 1px 0px 21px 20px;
+}
+
+#hinhndtinsua {
+    width: 400px;
+    height: 300px;
+}
+
+.sizehinhtintuc {
+    padding: 50px;
+}
+/* --trang chi tiet tin tuc-- */
+
+/* Trang tin tuc */
+.Trum {
+    width: 100%;
+    margin-top: 6em;
+    height: 1000px;
+}
+
+.Tintucchinh {
+    margin-top: 5em;
+    width: 100%;
+    height: 10em;
+    text-align: center;
+}
+.col-md-4 {
+    background: white;
+    height: 26em;
+    margin: auto;
+}
+
+.col-md-8 {
+    background: white;
+    height: 26em;
+}
+.trai {
+    float: left;
+    width: 50%;
+    height: 26em;
+    background: #5a513f;
+}
+
+.phai {
+    width: 50%;
+    height: 26em;
+    background: wheat;
+    float: left;
+}
+
+
+
+
+/*.container  {
+    width: 1170px;
+    border: 1px solid #ffffff;
+    margin-top: 10em;
+    border-radius: 1em;
+    box-shadow: 0px 1px 10px 3px #ced5e0;
+}*/
+
+.khungtintuc {
+    float: left;
+    width: 100%;
+}
+
+.danhsachtintuc {
+    height: 200px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.hinh-lelf {
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+.nd-right {
+    height: 200px;
+    width: 70%;
+    float: left;
+    padding-left: 2em;
+    text-align: left;
+}
+
+
+
+.hinhttuc {
+    height: 50%;
+    width: 100%;
+}
+
+
+/* footer */
+.footertintuc {
+    float: left;
+    width: 100%;
+    height: 230px;
+    padding-top: 30px;
+    background: #7ac0f8;
+}
+
+.col-md-3, Li {
+    box-shadow: 0px 0px 0px 0px #7ac0f8;
+    border-bottom: 1px #7ac0f8;
+    font-size: 1em;
+}
+
+.headfooter {
+    float: left;
+    width: 100%;
+    height: 200px;
+    color: rgb(222, 229, 241);
+}
+
+.botfooter {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background: hsla(207, 90%, 54%, 0.74);
+    line-height: 3.5;
+    padding-left: 3em;
+    color: #c9dcea;
+}
+
+
+
+
+/* danh sach san pham */
+.col-md-6.sp {
+    height: 300px;
+    margin-top: 2em;
+}
+.hinh-lelf {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.ndsp-right {
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding: 1px 10px 0px 20px;
+}
+.tenloaisanpham {
+    font-size: 25px;
+    color: #337ab7;
+    font-weight: 600;
+}
+#hinhsp{
+    max-width: 100%;
+}
+
+#hinhndtintuc {
+    width: 530px;
+    margin: 30px 0px 30px 90px;
+}
+
+h2#tieudetintuc {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+#hinhtintuc123 {
+    width: 100%;
+    height: 100%;
+
+}
+
+#linkchufooter {
+    color: #dee8ef;
+}
+
+.hinhthuonghieu {
+    width: 100%;
+    height: 100px;
+    margin-top: 10em;
+    border-top: 2px solid #7ac0f8;
+}
+
+#thuonghieu {
+    
+height: 100px;
+    
+width: 120px;
+}
+
+#hinhtintucheader {
+    height: 100%;
+    width: 100%;
+}
+
+#dstinhot123 {
+    font-size: 14px;
+    border-bottom: 1px solid #eef0f4;
+    box-shadow: 2px 1px 6px -1px #e4e8ee;
+}
+i.fa.fa-shopping-cart {
+    font-size: 25px;
+    color: white;
+    margin-top: 4px;
+}
+/* trang chu */
+.listspmuanhieu ul{
+    display: inline-flex;
+list-style-type: none;
+    }
+.donhang {
+    /* margin: 0 auto; */
+    margin-top: 5em;
+    text-align: center;
+}
+
+/*trang chu*/
+.mucsphot {
+    margin-top: 6em;
+    /* width: 400px; */
+    /*background: #2196f321;*/
+    height: 400px;
+    box-shadow: 0px 0px 1px 0px #75c2ff;
+}
+.thongtinsp span {
+    color: red;
+}
+.tuychondanhmuc {
+    float: left;
+    margin-left: 2em;
+}
+/*ul.danhsachtinhot {
+    margin-top: 10em;
+}*/
+.Tintucchinh h2 {
+    color: #2196f373;
+    font-family: monospace;
+    font-weight: inherit;
+}
